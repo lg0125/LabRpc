@@ -1,0 +1,11 @@
+{
+  "server":
+  [
+    {"host": "localhost","port": 1099},
+    {"host": "localhost","port": 9099},
+    {"host": "localhost","port": 8099},
+    {"host": "localhost","port": 7099},
+    {"host": "localhost","port": 6099}
+  ]
+
+}

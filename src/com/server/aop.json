@@ -1,0 +1,22 @@
+{
+  "aop":
+  [
+    {
+      "adviceMethod":"lock",
+      "type":"after",
+      "targetMethod": "login"
+    },
+
+    {
+      "adviceMethod":"getPreCard",
+      "type":"before",
+      "targetMethod": "withdraw"
+    },
+
+    {
+      "adviceMethod":"log",
+      "type":"after",
+      "targetMethod": "withdraw"
+    }
+  ]
+}
